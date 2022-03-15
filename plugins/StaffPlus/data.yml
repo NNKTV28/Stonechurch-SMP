@@ -1,0 +1,12 @@
+# All saved data for Staff+. Only modify this file if you know what you're doing!
+
+aacf8959-204c-318f-86d7-b60d43222169:
+  name: NNKtv28
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - XRAY;true
+  - MENTION;true
+  - NAME_CHANGE;true

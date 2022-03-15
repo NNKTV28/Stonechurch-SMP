@@ -1,0 +1,179 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+data-version: 2|2586
+'1':
+  uniqueId: 1f096bf7-7f8d-44e5-8d34-a276d8648273
+  name: Admin Spawn Shop
+  world: world
+  x: -173
+  y: 143
+  z: 180
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: SWAMP
+    villagerLevel: 5
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND_PICKAXE
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND_PICKAXE
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            SILK_TOUCH: 1
+'3':
+  uniqueId: 2bd554a7-1a5d-481b-94aa-60aff2ea2165
+  name: Lil Foxy
+  world: world
+  x: -595
+  y: 94
+  z: -470
+  type: admin
+  object:
+    type: fox
+    baby: false
+    sitting: true
+    foxType: SNOW
+    sleeping: false
+    crouching: false
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BEDROCK
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ARTHROPODS: 32000
+            FIRE_ASPECT: 32000
+            KNOCKBACK: 32000
+            MENDING: 32000
+            DAMAGE_ALL: 32000
+            DAMAGE_UNDEAD: 32000
+            SWEEPING_EDGE: 32000
+            DURABILITY: 32000
+'4':
+  uniqueId: a27f4d50-95a4-4241-86ab-4a9306e46868
+  name: Spartaco
+  world: world
+  x: -227
+  y: 65
+  z: -464
+  type: admin
+  object:
+    type: wolf
+    baby: false
+    sitting: true
+    angry: false
+  recipes: {}
+'5':
+  uniqueId: 924fb5c7-d13f-40af-92e4-93d9632886f9
+  name: Resources shop
+  world: world
+  x: -273
+  y: 65
+  z: -495
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: SWAMP
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_INGOT
+        amount: 5
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BEACON
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IRON_INGOT
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: WHEAT_SEEDS
+        amount: 64
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: SHULKER_SHELL
+        amount: 16
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ENDER_PEARL
+        amount: 16
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BEDROCK
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ARTHROPODS: 32000
+            FIRE_ASPECT: 32000
+            KNOCKBACK: 32000
+            MENDING: 32000
+            DAMAGE_ALL: 32000
+            DAMAGE_UNDEAD: 32000
+            SWEEPING_EDGE: 32000
+            DURABILITY: 32000
+'7':
+  uniqueId: acd9f803-1cbd-4794-989b-d61b4af1224a
+  name: Hola bb
+  world: world
+  x: -289
+  y: 64
+  z: -490
+  type: admin
+  object:
+    type: creeper
+    powered: true
+  recipes: {}
