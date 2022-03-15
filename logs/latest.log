@@ -1,0 +1,494 @@
+[18:28:59] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:29:00] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[18:29:01] [Worker-Main-4/INFO]: Loaded 7 recipes
+[18:29:04] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[18:29:04] [Server thread/INFO]: Loading properties
+[18:29:04] [Server thread/INFO]: This server is running Paper version git-Paper-790 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[18:29:04] [Server thread/INFO]: Debug logging is disabled
+[18:29:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:29:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:29:04] [Server thread/INFO]: Default game type: SURVIVAL
+[18:29:04] [Server thread/INFO]: Generating keypair
+[18:29:05] [Server thread/INFO]: Starting Minecraft server on 192.168.1.22:25565
+[18:29:05] [Server thread/INFO]: Using default channel type
+[18:29:06] [Server thread/ERROR]: Could not load 'plugins\Jobs5.0.0.9.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [CMILib]. Please download and install these plugins to run 'Jobs'.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:291) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:269) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-790]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[18:29:06] [Server thread/ERROR]: Could not load 'plugins\SimpleJail.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Cannot find main class `me.Prunt.simplejail.Main'
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:84) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:414) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:322) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:269) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-790]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.ClassNotFoundException: me.Prunt.simplejail.Main
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:114) ~[patched_1.16.5.jar:git-Paper-790]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:466) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.16.5.jar:git-Paper-790]
+	... 8 more
+[18:29:07] [Server thread/INFO]: [BigDoors] Loading 1 libraries... please wait
+[18:29:08] [Server thread/INFO]: [BigDoors] Loaded library C:\Users\clases\Desktop\Minecraft tools\Paper server\libraries\net\bytebuddy\byte-buddy\1.12.2\byte-buddy-1.12.2.jar
+[18:29:08] [Server thread/INFO]: [Timber] Loading Timber v1.0.9
+[18:29:08] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.9
+[18:29:08] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
+[18:29:08] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.3
+[18:29:08] [Server thread/INFO]: [BioLogin] Loading BioLogin v1.1.1
+[18:29:08] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.1.1
+[18:29:08] [Server thread/INFO]: [ViaVersion] ViaVersion 4.1.1 is now loaded, injecting!
+[18:29:08] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[18:29:08] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[18:29:08] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[18:29:09] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[18:29:09] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[18:29:09] [Server thread/INFO]: [floodgate] Loading floodgate v2.1.0-SNAPSHOT
+[18:29:09] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[18:29:09] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[18:29:09] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[18:29:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:29:10] [Server thread/INFO]: [floodgate] Took 1,097ms to boot Floodgate
+[18:29:10] [Server thread/INFO]: [StaffPlus] Loading StaffPlus v3.3.7.1
+[18:29:10] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.1.1
+[18:29:10] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:29:10] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[18:29:10] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[18:29:10] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[18:29:10] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[18:29:10] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[18:29:10] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[18:29:10] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[18:29:10] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[18:29:10] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[18:29:11] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[18:29:11] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[18:29:11] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.1
+[18:29:11] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.86
+[18:29:11] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.0-SNAPSHOT
+[18:29:11] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[18:29:11] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.8+6008-1246d61
+[18:29:12] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@45bee0dd]
+[18:29:12] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.2
+[18:29:12] [Server thread/INFO]: [BKCommonLib] Loading BKCommonLib v1.18.1-v2
+[18:29:20] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:29:29] [Server thread/INFO]: [LightCleaner] Loading LightCleaner v1.18.1-v3
+[18:29:29] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
+[18:29:29] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v2.2.2
+[18:29:29] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v2.13.3
+[18:29:29] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': AXOLOTL
+[18:29:29] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': GLOW_SQUID
+[18:29:29] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': GOAT
+[18:29:29] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[18:29:29] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (326 ms)
+[18:29:29] [Server thread/INFO]: [Shopkeepers] Loading config.
+[18:29:29] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': AXOLOTL
+[18:29:29] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': GLOW_SQUID
+[18:29:29] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': GOAT
+[18:29:29] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[18:29:29] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[18:29:29] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': AXOLOTL
+[18:29:29] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': GLOW_SQUID
+[18:29:29] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': GOAT
+[18:29:29] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[18:29:29] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[18:29:29] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[18:29:29] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.19.2
+[18:29:29] [Server thread/INFO]: [GSit] Loading GSit v[6.0.4.1]
+[18:29:29] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.19.2
+[18:29:29] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.17.1-2b69191
+[18:29:29] [Server thread/INFO]: [OpenAudioMc] Loading OpenAudioMc v6.6
+[18:29:29] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.19.2
+[18:29:29] [Server thread/INFO]: [PlayerWarps] Loading PlayerWarps v6.12.1
+[18:29:29] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v7.1.0
+[18:29:29] [Server thread/INFO]: [BigDoors] Loading BigDoors vAlpha 0.1.8.35
+[18:29:29] [Server thread/INFO]: [EldoUtilities] Could not load config file. Using default log level.
+[18:29:29] [Server thread/INFO]: [BigDoorsOpener] Debug logger initialized. Log Level: INFO
+[18:29:29] [Server thread/INFO]: [EldoUtilities] Could not load config file. Using default log level.
+[18:29:29] [Server thread/INFO]: [BigDoorsOpener] Loading BigDoorsOpener v2.4.5
+[18:29:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:29:29] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.1
+[18:29:30] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.86
+[18:29:30] [Server thread/INFO]:         __    
+[18:29:30] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.86
+[18:29:30] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:29:30] [Server thread/INFO]: 
+[18:29:30] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:29:31] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:29:31] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:29:32] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:29:32] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2147ms)
+[18:29:32] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:29:32] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.2 which is not a depend, softdepend or loadbefore of this plugin.
+[18:29:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:29:32] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:29:32] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:29:32] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:29:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.8+6008-1246d61
+[18:29:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:29:32] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:29:33] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[18:29:34] [Server thread/INFO]: [BKCommonLib] Enabling BKCommonLib v1.18.1-v2
+[18:29:34] [Server thread/INFO]: [BKCommonLib] BKCommonLib is running on Paperspigot (git-Paper-790) : v1_16_R3 (Minecraft 1.16.5)
+[18:29:34] [Server thread/INFO]: [BKCommonLib.Network] Now using a PlayerConnection hook to provide Packet Listener and Monitor support
+[18:29:37] [Server thread/INFO]: [BKCommonLib] Our love is not permitted by the overlords. We must flee...
+[18:29:37] [Server thread/INFO]: [BKCommonLib] BKCommonLib version 1.18.1-v2 (build: 1194) enabled! (2.624s)
+[18:29:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:29:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:29:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:29:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:29:37] [Server thread/INFO]: Preparing level "world"
+[18:29:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:29:38] [Server thread/INFO]: Preparing spawn area: 0%
+[18:29:38] [Server thread/INFO]: Preparing spawn area: 0%
+[18:29:38] [Server thread/INFO]: Time elapsed: 573 ms
+[18:29:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:29:38] [Server thread/INFO]: Time elapsed: 176 ms
+[18:29:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:29:39] [Server thread/INFO]: Time elapsed: 177 ms
+[18:29:39] [Server thread/INFO]: [Timber] Enabling Timber v1.0.9
+[18:29:39] [Server thread/INFO]: Timber Log Materials: [JUNGLE_LOG, SPRUCE_LOG, ACACIA_LOG, DARK_OAK_LOG, OAK_LOG, BIRCH_LOG]
+[18:29:39] [Server thread/INFO]: Timber Axe Materials: [NETHERITE_AXE, WOODEN_AXE, DIAMOND_AXE, IRON_AXE, STONE_AXE, GOLDEN_AXE]
+[18:29:39] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.9
+[18:29:39] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
+[18:29:39] [Server thread/INFO]: 
+[18:29:39] [Server thread/INFO]:     __                      ____                                         _    _____
+[18:29:39] [Server thread/INFO]:    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
+[18:29:39] [Server thread/INFO]:   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
+[18:29:39] [Server thread/INFO]:  / /___/ /_/ / /_/ / /_/ / _, _/  __/ / / / / / /_/ / |/ /  __/ /       | |/ // __/
+[18:29:39] [Server thread/INFO]: /_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
+[18:29:39] [Server thread/INFO]:             /____//____/
+[18:29:39] [Server thread/INFO]: 
+[18:29:39] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[18:29:39] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[18:29:39] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[18:29:39] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.3
+[18:29:39] [Server thread/WARN]: [UberEnchant] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend, softdepend or loadbefore of this plugin.
+[18:29:39] [Server thread/INFO]: [BioLogin] Enabling BioLogin v1.1.1
+[18:29:39] [Server thread/INFO]: [BioLogin] Successfully Enabled The Plugin!
+[18:29:39] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.1.1
+[18:29:39] [Server thread/INFO]: [BKCommonLib] ViaVersion detected, will use it to detect player game versions
+[18:29:39] [Server thread/INFO]: [floodgate] Enabling floodgate v2.1.0-SNAPSHOT
+[18:29:40] [Server thread/INFO]: [StaffPlus] Enabling StaffPlus v3.3.7.1
+[18:29:40] [Server thread/INFO]: [Staff+] Version protocol set to 'v1_16_R3'.
+[18:29:40] [Server thread/INFO]: [Staff+] Staff+ has been enabled! Initialization took 260ms.
+[18:29:40] [Server thread/INFO]: [Staff+] Plugin created by Shortninja continued by Qball.
+[18:29:40] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.1.1
+[18:29:40] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.0-SNAPSHOT
+[18:29:41] [Server thread/INFO]: [Geyser-Spigot] Auto-loaded Floodgate key
+[18:29:41] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:29:41] [Server thread/INFO]: [Geyser-Spigot] 
+[18:29:41] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.0.0-SNAPSHOT (git-master-967ee4f)
+[18:29:41] [Server thread/INFO]: [Geyser-Spigot] 
+[18:29:41] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:29:47] [Server thread/INFO]: [Geyser-Spigot] Loaded Floodgate key!
+[18:29:48] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[18:29:48] [Server thread/INFO]: [Geyser-Spigot] Done (6.372s)! Run /geyser help for help!
+[18:29:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.2
+[18:29:48] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:29:48] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:29:48] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
+[18:29:48] [Server thread/INFO]: [Essentials] Using locale en_US
+[18:29:49] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:29:49] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:29:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[18:29:49] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[18:29:49] [Server thread/INFO]: [LightCleaner] Enabling LightCleaner v1.18.1-v3
+[18:29:49] [Server thread/INFO]: [LightCleaner] LightCleaner version 1.18.1-v3 (build: 129) enabled! (0.112s)
+[18:29:49] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
+[18:29:49] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[18:29:49] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[18:29:49] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[18:29:49] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[18:29:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[18:29:49] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[18:29:49] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[18:29:49] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[18:29:49] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[18:29:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[18:29:49] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[18:29:49] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[18:29:49] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[18:29:49] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[18:29:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[18:29:49] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:29:49] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v2.2.2
+[18:29:49] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
+[18:29:50] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
+[18:29:50] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_16_R3
+[18:29:50] [Server thread/INFO]: [AuctionHouse] Using en_us locale
+[18:29:50] [Server thread/INFO]: [AuctionHouse] Loaded 0 listings
+[18:29:50] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.13.3
+[18:29:50] [Server thread/INFO]: [Shopkeepers] Loading data of 5 shopkeepers..
+[18:29:50] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.2
+[18:29:50] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[18:29:50] [Server thread/INFO]: [GSit] Enabling GSit v[6.0.4.1]
+[18:29:50] [Server thread/INFO]: [GSit] The Plugin was successfully enabled.
+[18:29:50] [Server thread/INFO]: Plugin.plugin-link
+[18:29:50] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.2
+[18:29:50] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[18:29:50] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.17.1-2b69191
+[18:29:50] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[18:29:50] [Server thread/INFO]: [GriefPrevention] 2 total claims loaded.
+[18:29:51] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[18:29:51] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[18:29:51] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[18:29:51] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[18:29:51] [Server thread/INFO]: [OpenAudioMc] Enabling OpenAudioMc v6.6
+[18:29:51] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Starting in socket mode
+[18:29:51] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Initializing build 486 by BuildTools
+[18:29:51] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Using the main config file..
+[18:29:51] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Starting configuration module
+[18:29:51] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Using the main config file..
+[18:29:51] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Starting configuration module
+[18:29:51] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Skipped 24/24 migrations.
+[18:29:51] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Initializing socket connector
+[18:29:51] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Starting authentication module
+[18:29:52] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] This server already has an account, skipping sign up.
+[18:29:52] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Registering storage table for MojangProfile
+[18:29:53] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Initializing account details
+[18:29:53] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] The server is empty! ignoring voice chat.
+[18:29:53] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Loading aliases...
+[18:29:53] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Registering storage table for Alias
+[18:29:53] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Loaded 0 aliases
+[18:29:53] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Detected version type: MODERN
+[18:29:53] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Enabling the 1.13 speaker system
+[18:29:53] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Registering storage table for Speaker
+[18:29:53] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] There are 0 speakers in the new database
+[18:29:53] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Registering storage table for StoredWorldChunk
+[18:29:53] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Turns out you have WorldGuard installed! enabling regions and the region tasks..
+[18:29:53] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Enabling the newer 1.13 regions
+[18:29:53] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Registering storage table for RegionProperties
+[18:29:53] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Using ip: 90.164.25.27
+[18:29:53] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Attempting to start a cdn injector at port 8050. Timeout=20-seconds
+[18:29:56] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Attempting to start a cdn injector at port 7706. Timeout=20-seconds
+[18:29:58] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Continuing without the RestDirect feature! None of the listed ports were accessible or available. Please contact support, your server/host might not be compatible!
+[18:29:58] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Starting and loading took 50370MS
+[18:29:58] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.19.2
+[18:29:58] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
+[18:29:58] [Server thread/INFO]: [EssentialsDiscord] Attempting to login to Discord...
+[18:29:59] [Server thread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.api.JDA] Login Successful!
+[18:29:59] [JDA MainWS-ReadThread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
+[18:30:00] [JDA MainWS-ReadThread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.api.JDA] Finished Loading!
+[18:30:00] [Server thread/INFO]: [EssentialsDiscord] Successfully logged in as MCBot#1975
+[18:30:02] [Server thread/INFO]: [PlayerWarps] Enabling PlayerWarps v6.12.1
+[18:30:02] [Server thread/INFO]: [PlayerWarps] Vault found, now enabling PlayerWarps...
+[18:30:04] [Server thread/INFO]: [PlayerWarps] Found 14 config files to load!
+[18:30:05] [Server thread/INFO]: [PlayerWarps] Permissions plugin found!
+[18:30:05] [Server thread/INFO]: [PlayerWarps] Economy plugin found!
+[18:30:05] [Server thread/INFO]: [PlayerWarps] Chat plugin found!
+[18:30:05] [Server thread/INFO]: [PlayerWarps] SQLite database is enabling...
+[18:30:05] [Server thread/INFO]: [PlayerWarps] Loading Metrics...
+[18:30:05] [Server thread/INFO]: [PlayerWarps] Successfully loaded Metrics!
+[18:30:05] [ForkJoinPool.commonPool-worker-3/INFO]: [PlayerWarps] Found WorldGuard integrating support...
+[18:30:05] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v7.1.0
+[18:30:06] [Server thread/INFO]: [SilkSpawners] WorldGuard was found and support is enabled
+[18:30:06] [Server thread/INFO]: [SilkSpawners] Loading support for v1_16_R3
+[18:30:06] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled and now running.
+[18:30:06] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
+[18:30:06] [Server thread/INFO]: [BigDoors] Enabling BigDoors vAlpha 0.1.8.35
+[18:30:06] [Server thread/INFO]: [BigDoors] Power Block Types:
+[18:30:06] [Server thread/INFO]: [BigDoors]  - GOLD_BLOCK
+[18:30:06] [Server thread/INFO]: [BigDoors] No materials Blacklisted!
+[18:30:06] [Server thread/INFO]: [BigDoors] No materials Whitelisted!
+[18:30:06] [Server thread/INFO]: [BigDoors] DestroyListed materials:
+[18:30:06] [Server thread/INFO]: [BigDoors]  - LAVA
+[18:30:06] [Server thread/INFO]: [BigDoors]  - WATER
+[18:30:06] [Server thread/INFO]: [BigDoors]  - SNOW
+[18:30:06] [Server thread/INFO]: [BigDoors]  - FERN
+[18:30:06] [Server thread/INFO]: [BigDoors]  - GRASS
+[18:30:06] [Server thread/INFO]: [BigDoors]  - TALL_GRASS
+[18:30:06] [Server thread/INFO]: [BigDoors]  - SEAGRASS
+[18:30:06] [Server thread/INFO]: [BigDoors]  - TALL_SEAGRASS
+[18:30:06] [Server thread/WARN]: [BigDoors] This plugin is disabled because it is running in an invalid environment: Geyser-Spigot
+[18:30:06] [Server thread/INFO]: [BigDoorsOpener] Enabling BigDoorsOpener v2.4.5
+[18:30:06] [Server thread/INFO]: [BigDoorsOpener] Enabled. Required 258 ms.
+[18:30:07] [Server thread/INFO]: Running delayed init tasks
+[18:30:07] [Craft Scheduler Thread - 10/INFO]: [PlayerWarps] Loading player warps...
+[18:30:07] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4/5 (754)
+[18:30:07] [Craft Scheduler Thread - 8/INFO]: [Essentials] Fetching version information...
+[18:30:07] [Craft Scheduler Thread - 16/INFO]: [Vault] Checking for Updates ... 
+[18:30:07] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 17 (your version is 16.0.2). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[18:30:07] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[18:30:07] [Server thread/INFO]: [AuctionHouse] Registered Service Provider Essentials for Vault's Economy API
+[18:30:07] [Server thread/INFO]: [AuctionHouse] Registered Service Provider LuckPerms for Vault's Chat API
+[18:30:07] [Server thread/INFO]: [BigDoors] Checking for updates...
+[18:30:07] [Server thread/WARN]: [BigDoorsOpener] Big Doors is not ready or not loaded properly
+[18:30:07] [Server thread/ERROR]: [BigDoorsOpener] Plugin post start failed.
+de.eldoria.bigdoorsopener.core.exceptions.PluginInitFailed: Big Doors is not enabled
+	at de.eldoria.bigdoorsopener.core.BigDoorsOpener.loadExternalSources(BigDoorsOpener.java:206) ~[?:?]
+	at de.eldoria.bigdoorsopener.core.BigDoorsOpener.onPostStart(BigDoorsOpener.java:146) ~[?:?]
+	at de.eldoria.bigdoorsopener.eldoutilities.plugin.EldoPlugin$1.run(EldoPlugin.java:246) ~[?:?]
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:485) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1083) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-790]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[18:30:07] [Server thread/ERROR]: [BigDoorsOpener] Initializing failsave mode.
+[18:30:07] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[18:30:07] [Server thread/INFO]: Done (63.614s)! For help, type "help"
+[18:30:07] [Server thread/INFO]: Timings Reset
+[18:30:08] [Craft Scheduler Thread - 16/INFO]: [Vault] No new version available
+[18:30:08] [ForkJoinPool.commonPool-worker-3/INFO]: [BigDoors] No new updates available.
+[18:30:08] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.0
+[18:30:08] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[18:30:08] [Server thread/INFO]: [HolographicDisplays] dev.bukkit.org/projects/holographic-displays
+[18:30:09] [Craft Scheduler Thread - 6/INFO]: [StaffPlus] You are using the latest version thanks
+[18:30:09] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] New Identity = a7goc8L8mlQ5oDHCIa0EMsciM
+[18:30:16] [User Authenticator #1/INFO]: UUID of player NNKtv28 is aacf8959-204c-318f-86d7-b60d43222169
+[18:30:16] [Server thread/INFO]: NNKtv28 joined the game
+[18:30:16] [Server thread/INFO]: NNKtv28[/192.168.1.22:55969] logged in with entity id 308 at ([world]-600.5080241307041, 94.0, -457.3538302865242)
+[18:30:17] [Craft Scheduler Thread - 6/INFO]: [OpenAudioMc] [OpenAudioMc] VoiceChat seems to be enabled for this account! Requesting RTC and Password...
+[18:30:17] [Craft Scheduler Thread - 4/INFO]: [OpenAudioMc] [OpenAudioMc] Registering storage table for ClientDataStore
+[18:30:17] [Craft Scheduler Thread - 8/WARN]: [com.craftmend.thirdparty.mapdb.volume.Volume] Could not delete file: plugins\OpenAudioMc\database.db.wal.0
+[18:30:18] [Craft Scheduler Thread - 11/INFO]: [OpenAudioMc] [OpenAudioMc] Attempting to login to voice chat...
+[18:30:19] [OaVoiceAPI/INFO]: [OpenAudioMc] [OpenAudioMc] Connected to voicechat!
+[18:30:24] [Server thread/INFO]: NNKtv28 issued server command: /login Churra69
+[18:30:33] [Server thread/INFO]: NNKtv28 issued server command: /deop NNKtv28
+[18:30:33] [Server thread/INFO]: [NNKtv28: Made NNKtv28 no longer a server operator]
+[18:30:43] [Server thread/INFO]: NNKtv28 issued server command: /warp
+[18:30:47] [Server thread/INFO]: NNKtv28 issued server command: /pwarp
+[18:30:51] [Server thread/INFO]: NNKtv28 issued server command: /pwarp set
+[18:31:02] [Server thread/INFO]: NNKtv28 issued server command: /spawn
+[18:31:13] [Server thread/INFO]: Made NNKtv28 a server operator
+[18:31:48] [Server thread/INFO]: NNKtv28 issued server command: /pwarp:pwarp list
+[18:31:58] [Server thread/INFO]: NNKtv28 issued server command: /warps
+[18:32:06] [Server thread/INFO]: NNKtv28 issued server command: /rtoggle
+[18:32:07] [OaVoiceAPI/INFO]: [OpenAudioMc] [OpenAudioMc] Voicechat ws closing:  - 1000
+[18:32:07] [OaVoiceAPI/INFO]: [OpenAudioMc] [OpenAudioMc] Voicechat ws closed:  - 1000
+[18:32:07] [EventThread/INFO]: [OpenAudioMc] [OpenAudioMc] Expected voicechat shut down.
+[18:33:35] [Server thread/INFO]: NNKtv28 issued server command: /sign
+[18:38:31] [Server thread/INFO]: NNKtv28 issued server command: /sign set 1
+[18:38:40] [Server thread/INFO]: NNKtv28 issued server command: /sign set 1
+[18:38:57] [Server thread/INFO]: NNKtv28 issued server command: /worldguard:stoplag
+[18:39:18] [Server thread/INFO]: NNKtv28 issued server command: //contract
+[18:39:25] [Server thread/INFO]: NNKtv28 issued server command: /ah
+[18:39:32] [Server thread/INFO]: NNKtv28 issued server command: /ah sell 1
+[18:39:40] [Server thread/INFO]: NNKtv28 issued server command: //clearhistory
+[18:40:16] [Server thread/INFO]: NNKtv28 issued server command: //overlay
+[18:40:55] [Server thread/INFO]: NNKtv28 issued server command: //watchdog
+[18:40:58] [Server thread/INFO]: NNKtv28 issued server command: //watchdog active
+[18:41:04] [Server thread/INFO]: NNKtv28 issued server command: //watchdog help
+[18:42:01] [Server thread/INFO]: NNKtv28 issued server command: //watchdog inactive
+[18:42:23] [Server thread/INFO]: NNKtv28 issued server command: /staff
+[18:42:23] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[18:42:23] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[18:43:54] [Server thread/WARN]: NNKtv28 moved too quickly! 54.135980660328755,10.0,-20.143417034863205
+[18:44:26] [Server thread/INFO]: NNKtv28 issued server command: /staff
+[18:44:26] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[18:44:26] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[18:44:31] [Server thread/INFO]: NNKtv28 issued server command: /staff
+[18:44:31] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[18:44:31] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[18:45:14] [Server thread/INFO]: NNKtv28 issued server command: /staff
+[18:45:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[18:45:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[18:45:40] [Server thread/INFO]: NNKtv28 issued server command: /staff help
+[18:45:59] [Server thread/INFO]: NNKtv28 issued server command: /bigdoors
+[18:45:59] [Server thread/INFO]: [BigDoors] This plugin is disabled because it is running in an invalid environment: Geyser-Spigot
+[18:46:06] [Server thread/INFO]: NNKtv28 issued server command: /bigdoors
+[18:46:06] [Server thread/INFO]: [BigDoors] This plugin is disabled because it is running in an invalid environment: Geyser-Spigot
+[18:46:19] [Server thread/INFO]: NNKtv28 issued server command: /geyser
+[18:46:36] [Server thread/INFO]: NNKtv28 issued server command: /geyser list
+[18:46:40] [Server thread/INFO]: NNKtv28 issued server command: /geyser ?
+[18:47:09] [Server thread/INFO]: NNKtv28 issued server command: /spigot
+[18:47:17] [Server thread/INFO]: NNKtv28 issued server command: /bukkit:plugins
+[18:47:31] [Server thread/INFO]: NNKtv28 issued server command: /lp log
+[18:47:58] [Server thread/INFO]: NNKtv28 issued server command: /lp user @a
+[18:48:09] [Server thread/INFO]: NNKtv28 issued server command: /lp user @a info
+[18:56:28] [Server thread/INFO]: NNKtv28 issued server command: /lp group default permission set essentials.warp true world
+[18:56:28] [luckperms-command-executor/INFO]: [LP] LOG > (NNKtv28) [G] (default)
+[18:56:28] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.warp true server=world
+[18:56:33] [Server thread/INFO]: NNKtv28 issued server command: /deop NNKtv28
+[18:56:33] [Server thread/INFO]: [NNKtv28: Made NNKtv28 no longer a server operator]
+[18:56:46] [Server thread/INFO]: NNKtv28 issued server command: /pw list
+[18:56:52] [Server thread/INFO]: Made NNKtv28 a server operator
+[18:56:58] [Server thread/INFO]: NNKtv28 issued server command: /lp group default permission set essentials.warp true
+[18:56:58] [luckperms-command-executor/INFO]: [LP] LOG > (NNKtv28) [G] (default)
+[18:56:58] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.warp true
+[18:57:13] [Server thread/INFO]: NNKtv28 issued server command: /deop NNKtv28
+[18:57:13] [Server thread/INFO]: [NNKtv28: Made NNKtv28 no longer a server operator]
+[18:57:20] [Server thread/INFO]: NNKtv28 issued server command: /warp
+[18:57:22] [Server thread/INFO]: NNKtv28 issued server command: /warp list
+[18:57:25] [Server thread/INFO]: Made NNKtv28 a server operator
+[18:58:32] [Server thread/INFO]: NNKtv28 issued server command: /stop
+[18:58:32] [Server thread/INFO]: [NNKtv28: Stopping the server]
+[18:58:32] [Server thread/INFO]: Stopping server
+[18:58:32] [Server thread/INFO]: [BigDoorsOpener] Disabling BigDoorsOpener v2.4.5
+[18:58:32] [Server thread/INFO]: [BigDoors] Disabling BigDoors vAlpha 0.1.8.35 (b1082)
+[18:58:32] [Server thread/INFO]: [SilkSpawners] Disabling SilkSpawners v7.1.0
+[18:58:32] [Server thread/INFO]: [PlayerWarps] Disabling PlayerWarps v6.12.1
+[18:58:32] [Server thread/INFO]: [EssentialsDiscord] Disabling EssentialsDiscord v2.19.2
+[18:58:33] [Server thread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.internal.requests.RateLimiter] Waiting for 1 bucket(s) to finish. Average queue size of 0 requests
+[18:58:33] [Server thread/INFO]: [OpenAudioMc] Disabling OpenAudioMc v6.6
+[18:58:33] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Shutting down
+[18:58:33] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Saving world cache...
+[18:58:33] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Closing database
+[18:58:33] [Server thread/WARN]: [com.craftmend.thirdparty.mapdb.volume.Volume] Could not delete file: plugins\OpenAudioMc\database.db.wal.0
+[18:58:33] [Server thread/INFO]: [OpenAudioMc] [OpenAudioMc] Stopped OpenAudioMc. Goodbye.
+[18:58:33] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.17.1-2b69191
+[18:58:33] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[18:58:33] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.19.2
+[18:58:33] [Server thread/INFO]: [GSit] Disabling GSit v[6.0.4.1]
+[18:58:33] [Server thread/INFO]: [GSit] The Plugin was successfully disabled.
+[18:58:33] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.19.2
+[18:58:33] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.13.3
+[18:58:33] [Server thread/INFO]: [AuctionHouse] Disabling AuctionHouse v2.2.2
+[18:58:33] [Server thread/INFO]: [AuctionHouse] Saving auctions data
+[18:58:33] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
+[18:58:33] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[18:58:33] [Server thread/INFO]: [LightCleaner] Disabling LightCleaner v1.18.1-v3
+[18:58:33] [Server thread/INFO]: [LightCleaner] LightCleaner disabled!
+[18:58:33] [Server thread/INFO]: [BKCommonLib] Disabling BKCommonLib v1.18.1-v2
+[18:58:34] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.2
+[18:58:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[18:58:34] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.8+6008-1246d61
+[18:58:34] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:58:34] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:58:34] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.0.0-SNAPSHOT
+[18:58:34] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[18:58:34] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[18:58:34] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.86
+[18:58:34] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:58:34] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:58:34] [WebSocketConnectReadThread-89/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[18:58:35] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:58:35] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.1
+[18:58:35] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.1.1
+[18:58:35] [Server thread/INFO]: [StaffPlus] Disabling StaffPlus v3.3.7.1
+[18:58:35] [Server thread/INFO]: [Staff+] Staff+ is now disabling!
+[18:58:35] [Server thread/INFO]: [floodgate] Disabling floodgate v2.1.0-SNAPSHOT
+[18:58:35] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.1.1
+[18:58:35] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:58:35] [Server thread/INFO]: [BioLogin] Disabling BioLogin v1.1.1
+[18:58:35] [Server thread/INFO]: [BioLogin] Successfully Disabled The Plugin!
+[18:58:35] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.9.3
+[18:58:35] [Server thread/INFO]: [LaggRemover] Disabling LaggRemover v2.0.6
+[18:58:35] [Server thread/INFO]: [LaggRemover] LaggRemover has been disabled!
+[18:58:35] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.4.9
+[18:58:35] [Server thread/INFO]: [Timber] Disabling Timber v1.0.9
+[18:58:35] [Server thread/INFO]: Saving players
+[18:58:35] [Server thread/INFO]: NNKtv28 lost connection: Server crashed
+[18:58:35] [Server thread/INFO]: NNKtv28 left the game
+[18:58:35] [Server thread/INFO]: Saving worlds
+[18:58:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:58:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:58:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:58:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:58:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:58:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:58:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:58:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:58:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:58:38] [Server thread/INFO]: Flushing Chunk IO
+[18:58:38] [Server thread/INFO]: Closing Thread Pool
+[18:58:38] [Server thread/INFO]: Closing Server

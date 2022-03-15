@@ -1,0 +1,30 @@
+{
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2022-01-10 11:59:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2022-01-10 12:21:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2022-01-10 11:59:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:cold_ocean": "2022-01-10 11:59:43 +0100",
+      "minecraft:forest": "2022-01-10 12:20:26 +0100",
+      "minecraft:deep_cold_ocean": "2022-01-10 12:10:46 +0100",
+      "minecraft:beach": "2022-01-10 12:20:31 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}
