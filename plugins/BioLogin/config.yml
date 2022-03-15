@@ -1,0 +1,8 @@
+#This Sends a Message To Player When Joining You Can Change The Message Sent In The "messages.yml" config File!
+Player-message-when-joining: true
+
+#This Sets the Time Between sending each message as a reminder to register/login
+Message-Seconds: 30
+
+#This Sets The Time Before Player getting Kicked for not authenticating
+Kick-Seconds: 120

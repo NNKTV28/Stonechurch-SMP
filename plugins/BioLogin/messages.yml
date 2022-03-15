@@ -1,0 +1,16 @@
+join: '&7Welcome! &e%player% &7To The Server!'
+login: '&7Please, Insert Your Password Using &c/login <password>'
+register: '&7Please, Set Your Password Using &c/register <password> <password>'
+success-login: '&c&l[!] &7You Successfully Entered The Password!'
+success-register: '&c&l[!] &7Password Created Successfully!'
+failed-login: '&cWrong Password!'
+failed-register: '&cPassword Confirmation Failed! &7Please Try Again And Try Confirming
+  Your Password!'
+not-registered: '&cYou are not Registered. Please, Run The Command /register <password>
+  <password>'
+already-registered: '&cYou Are Already Registered!'
+already-login: '&cYou Are Already Logged In!'
+already-have-password: '&cYou Already Have a Password!'
+block-break: '&cYou Are Not Allowed To Do That Yet!'
+cmd-execute: '&cYou Are Not Allowed To Do That Yet!'
+chat-talk: '&cYou Are Not Allowed To Do That Yet!'

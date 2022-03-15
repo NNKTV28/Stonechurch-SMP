@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 80.52.109.44
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1639682418062
+  login: 1639682371901
+money: '0'
+last-account-name: LaMujerEsa
+lastlocation:
+  world: 63c75589-6b51-4fbe-b691-aa56f54dd3ec
+  world-name: world
+  x: -158.5
+  y: 73.0
+  z: 171.5
+  yaw: 1.2918527126312256
+  pitch: 0.0
+logoutlocation:
+  world: 63c75589-6b51-4fbe-b691-aa56f54dd3ec
+  world-name: world
+  x: -128.68053529358693
+  y: 64.0
+  z: 84.52858658088178
+  yaw: 195.30029296875
+  pitch: 19.349964141845703

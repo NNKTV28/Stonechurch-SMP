@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.1.22
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1642611042711
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1642615114645
+  login: 1642613417395
+money: '0'
+lastlocation:
+  world: 63c75589-6b51-4fbe-b691-aa56f54dd3ec
+  world-name: world
+  x: -282.9309095290884
+  y: 75.37478961746294
+  z: -442.3720223047676
+  yaw: 93.66069030761719
+  pitch: 8.999317169189453
+logoutlocation:
+  world: 63c75589-6b51-4fbe-b691-aa56f54dd3ec
+  world-name: world
+  x: -549.985313022641
+  y: 94.5
+  z: -456.23479512776964
+  yaw: -268.840087890625
+  pitch: 13.349466323852539
+last-account-name: NNKtv28
+confirm-pay: true
+last-message-reply-recipient: false

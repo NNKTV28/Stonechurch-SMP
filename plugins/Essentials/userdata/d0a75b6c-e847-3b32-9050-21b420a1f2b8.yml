@@ -1,0 +1,38 @@
+money: '0'
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 94.187.2.74
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1623345916156
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1623346041496
+  login: 1623345362606
+  kits:
+    starterkit: 1623345571926
+logoutlocation:
+  world: world
+  x: -195.93542195490315
+  y: 63.9375
+  z: -467.5061907259787
+  yaw: 103.447815
+  pitch: 23.262821
+last-account-name: nounoupro560
+lastlocation:
+  world: world
+  x: -264.0
+  y: 85.0
+  z: 71.0
+  yaw: 0.6
+  pitch: 5.7000012

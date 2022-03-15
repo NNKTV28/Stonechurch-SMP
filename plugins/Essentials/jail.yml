@@ -1,0 +1,9 @@
+jails:
+  jail:
+    world: ac7ae189-8d4d-4842-aa8c-ff2144c06245
+    world-name: world_nether
+    x: -48.30000001192093
+    y: 128.0
+    z: 4.5036859207701925
+    yaw: 87.76025390625
+    pitch: 0.8322457075119019

@@ -1,0 +1,21 @@
+timestamps:
+  login: 1623332711551
+  logout: 1623337117912
+  lastteleport: 1623336205277
+lastlocation:
+  world: world
+  x: -258.5
+  y: 82.0
+  z: 72.5
+  yaw: 15.151489
+  pitch: 50.250004
+logoutlocation:
+  world: world
+  x: -243.5615477820773
+  y: 65.9375
+  z: -525.0405307940672
+  yaw: -24.391603
+  pitch: 9.7493
+afk: false
+ip-address: 90.164.25.27
+last-account-name: Test subject

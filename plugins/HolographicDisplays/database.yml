@@ -1,0 +1,8 @@
+welcome:
+  location: world, -159.564, 144.200, 178.567
+  lines:
+  - Welcome to NNKtv28 server
+WarpsInfo:
+  location: world, -165.599, 144.200, 178.721
+  lines:
+  - To go to Survival write /warps

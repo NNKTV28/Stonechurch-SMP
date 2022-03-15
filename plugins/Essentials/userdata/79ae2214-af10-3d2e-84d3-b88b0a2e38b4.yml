@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 81.33.182.44
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1639751971630
+  login: 1639751160848
+money: '0'
+last-account-name: LOL_Attacks
+lastlocation:
+  world: ac7ae189-8d4d-4842-aa8c-ff2144c06245
+  world-name: world_nether
+  x: -116.14510137639513
+  y: 128.0
+  z: 8.905452466365519
+  yaw: -115.93914794921875
+  pitch: 41.4821662902832
+logoutlocation:
+  world: 63c75589-6b51-4fbe-b691-aa56f54dd3ec
+  world-name: world
+  x: -182.5994228077693
+  y: 64.0
+  z: -492.2425821786959
+  yaw: 79.767578125
+  pitch: 23.40070152282715

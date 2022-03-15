@@ -1,0 +1,21 @@
+
+
+[14-01-2022 14:30:25] This plugin is disabled because it is running in an invalid environment: Geyser-Spigot
+
+
+[18-01-2022 21:34:40] This plugin is disabled because it is running in an invalid environment: Geyser-Spigot
+
+
+[18-01-2022 21:37:15] This plugin is disabled because it is running in an invalid environment: Geyser-Spigot
+
+
+[18-01-2022 21:52:12] This plugin is disabled because it is running in an invalid environment: Geyser-Spigot
+
+
+[19-01-2022 17:38:22] This plugin is disabled because it is running in an invalid environment: Geyser-Spigot
+
+
+[19-01-2022 18:08:38] This plugin is disabled because it is running in an invalid environment: Geyser-Spigot
+
+
+[19-01-2022 18:30:06] This plugin is disabled because it is running in an invalid environment: Geyser-Spigot
