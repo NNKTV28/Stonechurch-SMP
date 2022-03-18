@@ -19,7 +19,7 @@ guild: 893584868452208660
 guild: 631801282742452224
 
 # The Discord invite URL that will be shown when a player when using the /discord command or in other areas.
-discord-url: "https://discord.gg/gHe3QGE"
+discord-url: "https://discord.gg/gHe3QGE" <-- JOIN IF YOU NEED HELP
 
 # Defined text channels
 # =====================
@@ -40,9 +40,7 @@ discord-url: "https://discord.gg/gHe3QGE"
 # (note: you will need to replace the zeros with the actual channel ID you want to use)
 channels:
   primary: 921092423789215834
-  primary: 933007269585645628
   staff: 893891119308480522
-  staff: 933009119269511208
 
 # Should all players receive Discord messages from the primary channel, regardless of their permissions?
 # This is intended for use for people without permission plugins. If you have a permission plugin, please give your
@@ -80,7 +78,6 @@ console:
   # If the channel ID/webhook URL is invalid or set to 'none', the console relay will be disabled.
   # Note: If you use a channel ID, the bot must have the "Manage Webhooks" permission in Discord or else the console relay will not work.
   channel: 921091609729323008
-  channel: 933009119269511208
   # The format of the console message. The following placeholders can be used:
   # - {timestamp}: Timestamp in HH:mm:ss format
   # - {level}: The console logging level
@@ -124,29 +121,22 @@ message-types:
   leave: none
   # Chat messages sent when a player chats on the Minecraft server.
   chat: 921000567113916446
-  chat: 920705088190816326
   # Death messages sent when a player dies on the Minecraft server.
   death: none
   # AFK status change messages sent when a player's AFK status changes.
   afk: 763357416086568970
-  afk: 920705088190816326
   # Achievement/advancement messages sent when a player is awarded an achievement/advancement.
   advancement: none
   # Action messages sent when a player runs the /me or /action commands.
   action: 921091609729323008
-  action: 920705088190816326
   # Message sent when the server starts up.
   server-start: 921092423789215834
-  server-start: 933007269585645628
   # Message sent when the server shuts down.
   server-stop: 921092423789215834
-  server-stop: 933007269585645628
   # Message sent when a player is kicked from the Minecraft server.
   kick: 921092423789215834
-  kick: 933009119269511208
   # Message sent when a player's mute state is changed on the Minecraft server.
   mute: 921092423789215834
-  mute: 933009119269511208
 
 # Whether or not player messages should show their avatar as the profile picture in Discord.
 # The bot will require the "Manage Webhooks" permission in the defined channels in order to use this feature.
