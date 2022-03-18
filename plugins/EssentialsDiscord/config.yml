@@ -12,7 +12,7 @@
 
 # The token for your bot from the Discord Developers site.
 # Please make sure to use this site to add the bot to your server as it grants special permissions you may not be familiar with: https://essentialsx.net/discord.html
-token: "ODUxODE5OTc1ODQ0Mjk4Nzky.YL91LA.nVQ0eaUbwWl_Pzv0q3he79J6iu4"
+token: "YOUR BOT TOKEN"
 
 # The ID of your server.
 guild: 893584868452208660
