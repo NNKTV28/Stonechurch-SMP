@@ -1,6 +1,7 @@
 # Stonechurch SMP Server
 
-A Minecraft server configuration package created by Impact3D.
+A Minecraft server configuration package created by NNKtv28.
+After a couple years im releasing it to the public
 
 ## Server Requirements
 
