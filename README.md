@@ -39,7 +39,7 @@ Use the included `SetupPortForwardNetworkUtilities.exe` tool to help configure p
 
 If you encounter any issues or need assistance:
 - Check the logs in the `logs` directory
-- Contact Impact3D for support
+- Contact nnktv28 for support
 - Refer to plugin documentation in the `plugins` folder
 
 ## License
